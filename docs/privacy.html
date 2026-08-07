@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Shade &amp; Skin</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 5rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.25rem; }
+  .updated { opacity: .7; font-size: .9rem; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { text-align: left; vertical-align: top; padding: .5rem .6rem; border-bottom: 1px solid rgba(128,128,128,.35); }
+  th { font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; opacity: .75; }
+  code { font-size: .9em; }
+  .box { border: 1px solid rgba(128,128,128,.35); border-radius: .6rem; padding: .9rem 1rem; margin: 1.25rem 0; }
+  footer { margin-top: 3rem; font-size: .9rem; opacity: .75; }
+</style>
+</head>
+<body>
+
+<h1>Shade &amp; Skin Privacy Policy</h1>
+<p class="updated">Last updated: 7 August 2026 · Applies to the iOS app <code>com.vovanphuc.shadeandskin</code></p>
+
+<p>Shade &amp; Skin is a personal app built and operated by <strong>Van Phuc Vo</strong>.
+This page describes exactly what the app does with your data — no more, no less.</p>
+
+<div class="box">
+<strong>The three things that matter most:</strong>
+<ul>
+  <li>Makeup try-on runs <strong>entirely on your device</strong>. No camera frame
+      and no facial landmark ever leaves your phone.</li>
+  <li>The skincare features send data <strong>only after you agree</strong>, and you
+      can decline and still use them.</li>
+  <li>We <strong>do not sell your data and do not share it with any third party for
+      their own purposes</strong>. There is no advertising and no tracking.</li>
+</ul>
+</div>
+
+<h2>1. What the app collects</h2>
+
+<table>
+<tr><th>Data</th><th>How it is collected</th><th>What it is used for</th><th>Where it lives</th></tr>
+
+<tr>
+  <td>Camera frames during makeup try-on</td>
+  <td>Front camera, once you grant permission</td>
+  <td>Drawing the makeup layer live on screen</td>
+  <td><strong>In temporary memory on your device only.</strong> Never uploaded, never saved automatically. There is no server endpoint that accepts imagery from the makeup try-on feature.</td>
+</tr>
+
+<tr>
+  <td>Facial landmarks during makeup try-on (the geometric points that mark the
+      outline of your lips, eyes, brows and face)</td>
+  <td>Computed on your device from the live camera frames</td>
+  <td>Positioning the makeup overlay on your face</td>
+  <td><strong>In temporary memory on your device only.</strong> They are discarded
+      frame by frame, never written to storage and never transmitted.</td>
+</tr>
+
+<tr>
+  <td>Makeup photos you capture</td>
+  <td>You tap the shutter</td>
+  <td>Reviewing, sharing or saving if you choose to</td>
+  <td>Temporary memory on your device. Written to your photo library only when you actively choose “Save Image”.</td>
+</tr>
+
+<tr>
+  <td>Self-reported skin details: skin type, concerns, routine pace, experience
+      level, ingredients you are allergic to or want to avoid</td>
+  <td>You enter them in the skincare section</td>
+  <td>Building a skincare plan that fits you</td>
+  <td>On your device, and synced to our server under an anonymous identity.</td>
+</tr>
+
+<tr>
+  <td>Skin photo (optional) — a single still photo of your face</td>
+  <td>You take one and tick the consent box at the photo step</td>
+  <td>Producing observations about how your skin looks and a skincare routine for you</td>
+  <td>Sent to our server, processed, then <strong>deleted as soon as the analysis
+      finishes</strong>. Apart from a progress photo you explicitly choose to save,
+      this is the only face image that leaves your device.</td>
+</tr>
+
+<tr>
+  <td>Progress photo (optional)</td>
+  <td>Only when you explicitly choose to save a photo to your progress timeline. A
+      progress photo is uploaded only as the direct result of you tapping save —
+      nothing is uploaded in the background.</td>
+  <td>Letting you compare how your skin looks over time</td>
+  <td>Encrypted on your device, and stored on our own server so it survives a
+      reinstall. <strong>Automatically deleted after 180 days</strong>, or immediately
+      when you delete it.</td>
+</tr>
+
+<tr>
+  <td>Your plan, daily check-ins and analysis history</td>
+  <td>Created as you use the app</td>
+  <td>Tracking progress over time</td>
+  <td>On your device, and synced to our server under an anonymous identity.</td>
+</tr>
+
+<tr>
+  <td>A random installation identifier and usage events (for example, which screen
+      was opened)</td>
+  <td>Automatically</td>
+  <td>Understanding which features are broken or unused</td>
+  <td>Our server.</td>
+</tr>
+</table>
+
+<p>The app does <strong>not</strong> ask for your name, email address, phone number,
+date of birth, postal address or payment details. There is no account registration.
+The app does <strong>not</strong> read your existing photo library, your contacts or
+your location.</p>
+
+<h2>2. What “anonymous identity” means</h2>
+
+<p>So that your profile and plan survive reinstalling the app, it generates a random
+identifier and sends it with each request. That identifier is not tied to your real
+identity: we do not know who you are, and we have no way to find out.</p>
+
+<h2>3. AI processing</h2>
+
+<p>Your skincare plan and the reading of your skin photo are handled by an
+<strong>AI model we built and operate ourselves</strong>, running on our own
+infrastructure.</p>
+
+<p><strong>Your data is not sent to OpenAI, Google, Anthropic or any other AI
+provider.</strong> It is also never used to train a model.</p>
+
+<p>Before any data leaves your device for the first time, the app shows a screen that
+explains specifically what will be sent and asks whether you agree. If you decline,
+your plan is produced by a deterministic rule engine instead, and no face image is
+transmitted from your device at all. You can change this choice at any time in
+<em>Settings → AI analysis</em>.</p>
+
+<p>Consent is not just a checkbox in the interface. Every photo upload must carry an
+explicit AI-consent flag, and <strong>the server rejects any upload that does not
+carry it, before the image is processed</strong>.</p>
+
+<h2>4. What we never use face data for</h2>
+
+<p>Face data — camera frames, facial landmarks, the skin photo and progress photos —
+is used only to render makeup on screen and to produce the skin observations and
+skincare routine you asked for. We do <strong>not</strong> use it for:</p>
+
+<ul>
+  <li>advertising or marketing;</li>
+  <li>authentication, login or identity verification;</li>
+  <li>identifying or recognising you, or matching you against any other person;</li>
+  <li>building an identity profile about you;</li>
+  <li>training or improving any model.</li>
+</ul>
+
+<h2>5. Who else can touch your data</h2>
+
+<p><strong>We do not share face data with any third party for their own
+purposes</strong>, and we never sell it. The skin photo is used only to produce the
+analysis you asked for; it is not sent to any external AI provider.</p>
+
+<p>Our infrastructure hosting provider may technically process or store data solely on
+our behalf, as an infrastructure service provider. It is not permitted to use that
+data for any purpose of its own, and it is bound to protect it to a standard equal to
+what this page promises. Nobody else can reach your data.</p>
+
+<p>There are no advertising networks, no third-party analytics SDKs and no cross-app
+tracking.</p>
+
+<h2>6. How long we keep it</h2>
+
+<ul>
+  <li><strong>Makeup try-on camera frames:</strong> never stored.</li>
+  <li><strong>Facial landmarks for makeup try-on:</strong> held in memory on your
+      device for the moment they are drawn, then discarded. Never stored, never
+      transmitted.</li>
+  <li><strong>Skin analysis photo:</strong> used only for the analysis you asked for
+      and deleted as soon as that analysis finishes. It is not kept as a permanent
+      image.</li>
+  <li><strong>Server-side analysis sessions:</strong> cleared automatically after 15
+      minutes of inactivity.</li>
+  <li><strong>Progress photos you chose to save:</strong> kept only because you asked
+      us to keep them. <strong>Automatically deleted 180 days after they are
+      saved</strong>, or immediately when you delete them. Once deleted they are
+      removed from our systems and not retained afterwards.</li>
+  <li><strong>Profile, plan, check-ins, history:</strong> kept until you delete
+      them.</li>
+  <li><strong>Usage events:</strong> kept in aggregate, not tied to an individual.</li>
+</ul>
+
+<h2>7. Your choices</h2>
+
+<ul>
+  <li><strong>Withdraw consent:</strong> <em>Settings → AI analysis</em>, turn the
+      switch off. From that moment nothing goes to the model.</li>
+  <li><strong>Delete your data:</strong> <em>Settings → Data → Delete routine and
+      check-ins</em>. This clears the data on your device and sends a delete command
+      to the server, where it runs as a single transaction and removes encrypted
+      photos as well.</li>
+  <li><strong>Refuse the camera:</strong> deny camera permission. The photo-free
+      skincare flow still works in full.</li>
+  <li><strong>Ask us anything:</strong> write to the address at the bottom of this
+      page.</li>
+</ul>
+
+<h2>8. Security</h2>
+
+<p>All network traffic uses HTTPS. Progress photos you choose to save are encrypted on
+your device with a key held in the device Keychain, and the copy kept on our own
+server so it survives a reinstall is held under access controls we operate — it is not
+handed to any external service. The server authenticates the app with Apple App
+Attest, so only a genuine build of the app can download content.</p>
+
+<h2>9. Children</h2>
+
+<p>This app is not directed at children and we do not knowingly collect data from
+them.</p>
+
+<h2>10. This is not a medical service</h2>
+
+<p>Every observation, score and suggestion in the app is ordinary cosmetic skincare
+guidance, for reference only. It is <strong>not a diagnosis and not medical
+treatment</strong>, and the app is not a regulated medical device. Talk to a doctor or
+dermatologist before making any decision about your health, and seek care promptly if
+you notice anything unusual on your skin.</p>
+
+<h2>11. Changes to this policy</h2>
+
+<p>If this policy changes in a way that affects you, we will update this page and
+change the date at the top. Significant changes will also be announced inside the
+app.</p>
+
+<footer>
+<p><strong>Contact</strong><br>
+Van Phuc Vo<br>
+<a href="mailto:vovanphuc100598@gmail.com">vovanphuc100598@gmail.com</a></p>
+<p><a href="./support.html">Support page</a></p>
+<p>© 2026 Van Phuc Vo</p>
+</footer>
+
+</body>
+</html>
